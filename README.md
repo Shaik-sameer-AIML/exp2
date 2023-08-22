@@ -10,7 +10,7 @@
 ### STEP 5: Display the overall results.
 
 ## PROGRAM:
-
+```
 import pandas as pd
 import numpy as np
 from statsmodels.tsa.seasonal import seasonal_decompose
@@ -24,7 +24,7 @@ result=seasonal_decompose(df['#Passengers'], model='multiplicable',period=12)
 result.seasonal.plot()
 result.trend.plot()
 result.plot()
-
+```
 ## OUTPUT:
 ### FIRST FIVE ROWS:
 ![image](https://github.com/gpavithra673/EXP-2--Implementation-of-time-series-analysis-and-decomposition/assets/93427264/ea7ed5df-8993-4fb5-a1ad-7a8c2eee23ec)
